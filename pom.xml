@@ -24,8 +24,8 @@
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>amdin123</sonar.password>
-		<sonar.host.url>http://54.164.140.176:9000/</sonar.host.url>
+		<sonar.password>squ_c63ca2748d9afd71fb9deb843c546d8aeee477e8</sonar.password>
+		<sonar.host.url>http://18.234.253.213:9000/</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -105,12 +105,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://34.227.110.234:8081/repository/blackrock-snapshot/</url>
+	      <url>http://54.144.31.253:8081/repository/rocket-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.227.110.234:8081/repository/blackrock-snapshot/</url>
+	      <url>http://54.144.31.253:8081/repository/rocket-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
