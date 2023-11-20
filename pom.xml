@@ -24,7 +24,7 @@
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.login>squ_c63ca2748d9afd71fb9deb843c546d8aeee477e8</sonar.login>
-		<sonar.host.url>http://100.24.74.54:9000/</sonar.host.url>
+		<sonar.host.url>http://100.26.162.83:9000/</sonar.host.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -104,12 +104,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://18.209.1.21:8081/repository/rocket-release/</url>
+	      <url>http://54.196.27.85:8081/repository/rocket-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.209.1.21:8081/repository/rocket-snapshot/</url>
+	      <url>http://54.196.27.85:8081/repository/rocket-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
