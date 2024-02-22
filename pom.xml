@@ -28,6 +28,12 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+	<repositories>
+		<repository>
+			<id>nexus</id>
+			<url>http://65.0.129.234:8081/repository/pep-proxy/</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 
@@ -104,12 +110,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://52.90.81.21:8081/repository/rocket-release/</url>
+	      <url>http://65.0.129.234:8081/repository/pep-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.90.81.21:8081/repository/rocket-snapshot/</url>
+	      <url>http://65.0.129.234:8081/repository/pep-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
