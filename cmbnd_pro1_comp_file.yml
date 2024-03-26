@@ -15,8 +15,10 @@ services:
     networks:
       - metronet
     volumes:
-      - ./settings.xml:/mavn/maven/conf/settings.xml # this was changed from normal mentioning of 'bindmount'
-
+      #- ./settings.xml:/mavn/maven/conf/settings.xml #this was changed from normal mentioning of 'bindmount'
+      - type: bind
+        source: ./settings.xml
+        target: /mavn/maven/conf/settings.xml
   gardens:
     image: mongo
     environment:
